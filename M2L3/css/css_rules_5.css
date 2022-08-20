@@ -1,0 +1,21 @@
+span {
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
+	padding-left: 0.7rem;
+	padding-top: 0.7rem;
+	background-color: blue;
+}
+
+/* every span element that is empty */
+span:empty {
+	background-color: green;
+	border-radius: 50%;
+}
+
+/* every child that is not every 3rd
+span:not(span:nth-child(3n-2)) {
+	background-color: #f90;
+	border-radius: 50%;
+}
+*/
